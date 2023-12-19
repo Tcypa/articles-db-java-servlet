@@ -1,0 +1,63 @@
+body {
+    background-color: #343a40;
+    color: #ffffff;
+    padding-top: 56px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+}
+
+.bootstrap-tagsinput {
+    width: 100%;
+  }
+  .tag {
+    display: inline-block;
+    background-color: #91b8e2;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-control {
+    width: 100%;
+    border-radius: 5px;
+  }
+  #tags {
+    height: 100px;
+    width: 100%;
+  }
+  #tags {
+    height: 100px;
+    width: 50%;
+  }
+  #exbt{
+    width:100%;
+  }
+  .bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    color: white !important;
+    background-color: #373d47;
+    padding: 0.2rem;
+  }
+
+#header {
+    text-align: center;
+    margin-top: 5px; 
+    background-color: rgb(32, 32, 32);
+}
+#loginContainer {
+    text-align: center;
+    margin-top: 30px; 
+}
+#footer {
+  
+    text-align: center;
+    margin-top: 50px; 
+    padding: 20px; 
+    background-color: #343a40; 
+    color: #ffffff; 
+}
